@@ -80,7 +80,7 @@ export default function Services() {
   ]
 
   return (
-    <section id="services" className="section-padding bg-gradient-to-br from-gray-50 to-white relative overflow-hidden">
+    <section id="services" className="section-padding bg-gradient-to-br from-blue-50 to-blue-100 relative overflow-hidden">
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-20 left-20 w-32 h-32 bg-primary-500 rounded-full blur-3xl" />
         <div className="absolute bottom-32 right-16 w-40 h-40 bg-accent-500 rounded-full blur-3xl" />

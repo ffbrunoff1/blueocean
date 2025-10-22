@@ -104,7 +104,7 @@ export default function Contact() {
   ]
 
   return (
-    <section id="contact" className="section-padding bg-gradient-to-br from-gray-50 to-white relative overflow-hidden">
+    <section id="contact" className="section-padding bg-gradient-to-br from-blue-50 to-blue-100 relative overflow-hidden">
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-20 right-20 w-32 h-32 bg-primary-500 rounded-full blur-3xl" />
         <div className="absolute bottom-32 left-16 w-40 h-40 bg-accent-500 rounded-full blur-3xl" />

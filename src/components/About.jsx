@@ -63,7 +63,7 @@ export default function About() {
   ]
 
   return (
-    <section id="about" className="section-padding bg-white relative overflow-hidden">
+    <section id="about" className="section-padding bg-blue-50 relative overflow-hidden">
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-10 left-10 w-20 h-20 bg-primary-500 rounded-full blur-xl" />
         <div className="absolute bottom-20 right-20 w-32 h-32 bg-accent-500 rounded-full blur-2xl" />
