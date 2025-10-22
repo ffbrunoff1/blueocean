@@ -108,7 +108,7 @@ export default function Services() {
 
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
             Soluções que{' '}
-            <span className="gradient-text">Transformam</span>{' '}
+            <span className="text-primary-500">Transformam</span>{' '}
             Negócios
           </h2>
 
@@ -139,7 +139,7 @@ export default function Services() {
                 }}
                 transition={{ duration: 0.6 }}
               >
-                <service.icon className="text-white" size={32} style={{ color: '#003266' }} />
+                <service.icon className="text-white" size={32} />
               </motion.div>
 
               <h3 className="text-2xl font-bold text-gray-900 mb-4 group-hover:text-primary-600 transition-colors duration-300">
@@ -213,7 +213,7 @@ export default function Services() {
                     boxShadow: "0 20px 40px -12px rgba(20, 184, 166, 0.4)"
                   }}
                 >
-                  <benefit.icon className="text-white" size={24} style={{ color: '#003266' }} />
+                  <benefit.icon className="text-white" size={24} />
                 </motion.div>
                 <h4 className="text-lg font-bold text-gray-900 mb-2 group-hover:text-primary-600 transition-colors duration-300">
                   {benefit.title}
@@ -239,7 +239,7 @@ export default function Services() {
               whileHover={{ rotate: 360, scale: 1.1 }}
               transition={{ duration: 0.6 }}
             >
-              <Globe className="text-black" size={36} style={{ color: '#003266' }} />
+              <Globe className="text-black" size={36} />
             </motion.div>
             <h3 className="text-3xl font-bold text-white mb-4">
               Pronto para Revolucionar Seu Negócio?

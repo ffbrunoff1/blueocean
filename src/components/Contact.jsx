@@ -132,7 +132,7 @@ export default function Contact() {
 
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
             Vamos{' '}
-            <span className="gradient-text">Transformar</span>{' '}
+            <span className="text-primary-500">Transformar</span>{' '}
             Seu Negócio Juntos
           </h2>
 
@@ -169,7 +169,7 @@ export default function Contact() {
                     }}
                     transition={{ duration: 0.6 }}
                   >
-                    <info.icon className="text-white" size={28} style={{ color: '#003266' }} />
+                    <info.icon className="text-white" size={28} />
                   </motion.div>
                   <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-primary-600 transition-colors duration-300">
                     {info.title}
@@ -188,7 +188,7 @@ export default function Contact() {
                     }}
                     transition={{ duration: 0.6 }}
                   >
-                    <info.icon className="text-white" size={28} style={{ color: '#003266' }} />
+                    <info.icon className="text-white" size={28} />
                   </motion.div>
                   <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-primary-600 transition-colors duration-300">
                     {info.title}
@@ -217,7 +217,7 @@ export default function Contact() {
                   whileHover={{ rotate: 360, scale: 1.1 }}
                   transition={{ duration: 0.6 }}
                 >
-                  <Send className="text-black" size={28} style={{ color: '#003266' }} />
+                  <Send className="text-black" size={28} />
                 </motion.div>
                 
                 <h3 className="text-3xl font-bold text-white mb-6">

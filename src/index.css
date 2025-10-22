@@ -27,11 +27,11 @@
 
 @layer components {
   .btn-primary {
-    @apply bg-gradient-to-r from-[#003266] to-[#003266] text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 hover:from-[#003266] hover:to-[#003266] hover:shadow-lg hover:scale-105 active:scale-95;
+    @apply bg-gradient-to-r from-primary-500 to-accent-500 text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 hover:from-primary-600 hover:to-accent-600 hover:shadow-lg hover:scale-105 active:scale-95;
   }
 
   .btn-secondary {
-    @apply bg-transparent border-2 border-[#003266] text-[#003266] px-8 py-3 rounded-lg font-semibold transition-all duration-300 hover:bg-[#003266] hover:text-white hover:shadow-lg hover:scale-105 active:scale-95;
+    @apply bg-transparent border-2 border-primary-500 text-primary-500 px-8 py-3 rounded-lg font-semibold transition-all duration-300 hover:bg-primary-500 hover:text-white hover:shadow-lg hover:scale-105 active:scale-95;
   }
 
   .btn-outline {
@@ -47,7 +47,7 @@
   }
 
   .gradient-text {
-    @apply bg-gradient-to-r from-[#003266] to-[#003266] bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-primary-500 to-accent-500 bg-clip-text text-transparent;
   }
 
   .card-hover {
@@ -85,7 +85,7 @@
   }
 
   .pulse-ring {
-    @apply absolute inset-0 rounded-full border-4 border-[#003266] opacity-30 animate-ping;
+    @apply absolute inset-0 rounded-full border-4 border-primary-500 opacity-30 animate-ping;
   }
 }
 

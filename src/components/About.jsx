@@ -91,7 +91,7 @@ export default function About() {
 
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
             Transformando o{' '}
-            <span className="gradient-text">Brasil</span>{' '}
+            <span className="text-primary-500">Brasil</span>{' '}
             através da Tecnologia
           </h2>
 
@@ -130,8 +130,8 @@ export default function About() {
               transition={{ duration: 0.3 }}
             >
               <div className="flex items-center space-x-4 mb-4">
-                <div className="w-12 h-12 bg-primary-600 rounded-lg flex items-center justify-center">
-                  <Zap className="text-white" size={24} style={{ color: '#003266' }} />
+                <div className="w-12 h-12 bg-primary-600 rounded-lg flex items-center justify-center" style={{ backgroundColor: '#003266' }}>
+                  <Zap className="text-white" size={24} />
                 </div>
                 <div>
                   <h4 className="text-xl font-bold text-gray-900">Nossa Missão</h4>
@@ -165,7 +165,7 @@ export default function About() {
                   whileHover={{ rotate: 360 }}
                   transition={{ duration: 0.6 }}
                 >
-                  <stat.icon className="text-white" size={28} style={{ color: '#003266' }} />
+                  <stat.icon className="text-white" size={28} />
                 </motion.div>
                 <motion.div
                   className="text-3xl font-bold text-gray-900 mb-2"
@@ -212,7 +212,7 @@ export default function About() {
                     boxShadow: "0 20px 40px -12px rgba(20, 184, 166, 0.4)"
                   }}
                 >
-                  <value.icon className="text-white" size={32} style={{ color: '#003266' }} />
+                  <value.icon className="text-white" size={32} />
                 </motion.div>
                 <h4 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-primary-600 transition-colors duration-300">
                   {value.title}
@@ -238,7 +238,7 @@ export default function About() {
               whileHover={{ rotate: 360, scale: 1.1 }}
               transition={{ duration: 0.6 }}
             >
-              <Rocket className="text-black" size={32} style={{ color: '#003266' }} />
+              <Rocket className="text-black" size={32} />
             </motion.div>
             <h3 className="text-3xl font-bold text-white mb-4">
               Pronto para Transformar Seu Negócio?
