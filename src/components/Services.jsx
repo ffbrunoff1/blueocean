@@ -139,7 +139,7 @@ export default function Services() {
                 }}
                 transition={{ duration: 0.6 }}
               >
-                <service.icon className="text-white" size={32} />
+                <service.icon className="text-white" size={32} style={{ color: '#003266' }} />
               </motion.div>
 
               <h3 className="text-2xl font-bold text-gray-900 mb-4 group-hover:text-primary-600 transition-colors duration-300">
@@ -167,7 +167,7 @@ export default function Services() {
               </div>
 
               <motion.button
-                className="w-full bg-gradient-to-r from-primary-500 to-accent-500 text-white py-3 rounded-lg font-semibold transition-all duration-300 hover:shadow-lg group flex items-center justify-center space-x-2"
+                className="w-full bg-gradient-to-r from-primary-500 to-accent-500 text-white py-3 rounded-lg font-semibold transition-all duration-300 hover:shadow-lg group flex items-center justify-center space-x-2" style={{ backgroundColor: '#003266' }}
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 onClick={() => document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' })}
@@ -213,7 +213,7 @@ export default function Services() {
                     boxShadow: "0 20px 40px -12px rgba(20, 184, 166, 0.4)"
                   }}
                 >
-                  <benefit.icon className="text-white" size={24} />
+                  <benefit.icon className="text-white" size={24} style={{ color: '#003266' }} />
                 </motion.div>
                 <h4 className="text-lg font-bold text-gray-900 mb-2 group-hover:text-primary-600 transition-colors duration-300">
                   {benefit.title}
@@ -239,7 +239,7 @@ export default function Services() {
               whileHover={{ rotate: 360, scale: 1.1 }}
               transition={{ duration: 0.6 }}
             >
-              <Globe className="text-black" size={36} />
+              <Globe className="text-black" size={36} style={{ color: '#003266' }} />
             </motion.div>
             <h3 className="text-3xl font-bold text-white mb-4">
               Pronto para Revolucionar Seu Negócio?
@@ -251,7 +251,7 @@ export default function Services() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.button
                 onClick={() => document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' })}
-                className="bg-accent-500 text-black px-8 py-4 rounded-lg font-bold text-lg hover:bg-accent-400 transition-all duration-300 hover:shadow-2xl hover:shadow-accent-500/25"
+                className="bg-accent-500 text-black px-8 py-4 rounded-lg font-bold text-lg hover:bg-accent-400 transition-all duration-300 hover:shadow-2xl hover:shadow-accent-500/25" style={{ backgroundColor: '#003266' }}
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.95 }}
               >

@@ -131,7 +131,7 @@ export default function About() {
             >
               <div className="flex items-center space-x-4 mb-4">
                 <div className="w-12 h-12 bg-primary-600 rounded-lg flex items-center justify-center">
-                  <Zap className="text-white" size={24} />
+                  <Zap className="text-white" size={24} style={{ color: '#003266' }} />
                 </div>
                 <div>
                   <h4 className="text-xl font-bold text-gray-900">Nossa Missão</h4>
@@ -165,7 +165,7 @@ export default function About() {
                   whileHover={{ rotate: 360 }}
                   transition={{ duration: 0.6 }}
                 >
-                  <stat.icon className="text-white" size={28} />
+                  <stat.icon className="text-white" size={28} style={{ color: '#003266' }} />
                 </motion.div>
                 <motion.div
                   className="text-3xl font-bold text-gray-900 mb-2"
@@ -212,7 +212,7 @@ export default function About() {
                     boxShadow: "0 20px 40px -12px rgba(20, 184, 166, 0.4)"
                   }}
                 >
-                  <value.icon className="text-white" size={32} />
+                  <value.icon className="text-white" size={32} style={{ color: '#003266' }} />
                 </motion.div>
                 <h4 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-primary-600 transition-colors duration-300">
                   {value.title}
@@ -238,7 +238,7 @@ export default function About() {
               whileHover={{ rotate: 360, scale: 1.1 }}
               transition={{ duration: 0.6 }}
             >
-              <Rocket className="text-black" size={32} />
+              <Rocket className="text-black" size={32} style={{ color: '#003266' }} />
             </motion.div>
             <h3 className="text-3xl font-bold text-white mb-4">
               Pronto para Transformar Seu Negócio?
@@ -249,7 +249,7 @@ export default function About() {
             </p>
             <motion.button
               onClick={() => document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' })}
-              className="bg-accent-500 text-black px-8 py-4 rounded-lg font-bold text-lg hover:bg-accent-400 transition-all duration-300 hover:shadow-2xl hover:shadow-accent-500/25"
+              className="bg-accent-500 text-black px-8 py-4 rounded-lg font-bold text-lg hover:bg-accent-400 transition-all duration-300 hover:shadow-2xl hover:shadow-accent-500/25" style={{ backgroundColor: '#003266' }}
               whileHover={{ scale: 1.05, y: -2 }}
               whileTap={{ scale: 0.95 }}
             >

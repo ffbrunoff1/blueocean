@@ -122,7 +122,7 @@ export default function Hero() {
               Brasil através da
             </motion.span>
             <motion.span
-              className="block text-accent-500"
+              className="block text-accent-500" style={{ color: '#003266' }}
               initial={{ opacity: 0, scale: 0.5 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.8, delay: 1.2 }}
@@ -137,7 +137,7 @@ export default function Hero() {
           >
             Somos especialistas em{' '}
             <motion.span
-              className="text-accent-500 font-semibold"
+              className="text-accent-500 font-semibold" style={{ color: '#003266' }}
               whileHover={{ scale: 1.1 }}
               transition={{ duration: 0.2 }}
             >
@@ -153,7 +153,7 @@ export default function Hero() {
           >
             <motion.button
               onClick={scrollToContact}
-              className="group bg-gradient-to-r from-accent-500 to-primary-500 text-black px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300 hover:shadow-2xl hover:shadow-accent-500/25 flex items-center space-x-2"
+              className="group bg-gradient-to-r from-accent-500 to-primary-500 text-black px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300 hover:shadow-2xl hover:shadow-accent-500/25 flex items-center space-x-2" style={{ backgroundColor: '#003266' }}
               whileHover={{ scale: 1.05, y: -2 }}
               whileTap={{ scale: 0.95 }}
             >
@@ -198,7 +198,7 @@ export default function Hero() {
                   whileHover={{ rotate: 360 }}
                   transition={{ duration: 0.6 }}
                 >
-                  <feature.icon className="text-accent-500" size={24} />
+                  <feature.icon className="text-accent-500" size={24} style={{ color: '#003266' }} />
                 </motion.div>
                 <h3 className="text-white font-semibold mb-2">{feature.title}</h3>
                 <p className="text-gray-300 text-sm">{feature.desc}</p>

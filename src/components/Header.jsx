@@ -143,7 +143,7 @@ export default function Header() {
                 onClick={() => scrollToSection('#contact')}
                 className={`btn-primary ${
                   isScrolled ? 'bg-primary-600 hover:bg-primary-700' : 'bg-primary-500 hover:bg-primary-600'
-                }`}
+                }`} style={{ backgroundColor: '#003266' }}
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.95 }}
                 initial={{ opacity: 0, scale: 0.8 }}

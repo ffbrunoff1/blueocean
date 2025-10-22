@@ -169,7 +169,7 @@ export default function Contact() {
                     }}
                     transition={{ duration: 0.6 }}
                   >
-                    <info.icon className="text-white" size={28} />
+                    <info.icon className="text-white" size={28} style={{ color: '#003266' }} />
                   </motion.div>
                   <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-primary-600 transition-colors duration-300">
                     {info.title}
@@ -188,7 +188,7 @@ export default function Contact() {
                     }}
                     transition={{ duration: 0.6 }}
                   >
-                    <info.icon className="text-white" size={28} />
+                    <info.icon className="text-white" size={28} style={{ color: '#003266' }} />
                   </motion.div>
                   <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-primary-600 transition-colors duration-300">
                     {info.title}
@@ -217,7 +217,7 @@ export default function Contact() {
                   whileHover={{ rotate: 360, scale: 1.1 }}
                   transition={{ duration: 0.6 }}
                 >
-                  <Send className="text-black" size={28} />
+                  <Send className="text-black" size={28} style={{ color: '#003266' }} />
                 </motion.div>
                 
                 <h3 className="text-3xl font-bold text-white mb-6">
@@ -385,7 +385,7 @@ export default function Contact() {
 
                 <motion.button
                   type="submit"
-                  className="w-full bg-gradient-to-r from-primary-500 to-accent-500 text-white py-4 rounded-lg font-bold text-lg transition-all duration-300 hover:shadow-xl hover:shadow-primary-500/25 flex items-center justify-center space-x-2 group"
+                  className="w-full bg-gradient-to-r from-primary-500 to-accent-500 text-white py-4 rounded-lg font-bold text-lg transition-all duration-300 hover:shadow-xl hover:shadow-primary-500/25 flex items-center justify-center space-x-2 group" style={{ backgroundColor: '#003266' }}
                   whileHover={{ scale: 1.02, y: -2 }}
                   whileTap={{ scale: 0.98 }}
                   initial={{ opacity: 0, y: 20 }}
